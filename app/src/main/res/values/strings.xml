@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">simple_calc</string>
+    <string name="editText_firstNumber">first number</string>
+    <string name="editText_secondNumber">Second number</string>
+    <string name="button_text_add">+</string>
+    <string name="button_text_subtract">-</string>
+    <string name="button_text_multyply">x</string>
+    <string name="button_text_divide">/</string>
+    <string name="textview_main_result">0</string>
+</resources>

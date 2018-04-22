@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">osc_a_01_02_simple_calculator</string>
+    <string name="editText_firstNumber">Prvi broj</string>
+    <string name="editText_secondNumber">Drugi broj</string>
+    <string name="button_text_add">+</string>
+    <string name="button_text_subtract">-</string>
+    <string name="button_text_multyply">x</string>
+    <string name="button_text_divide">/</string>
+    <string name="textview_main_result">0</string>
+</resources>

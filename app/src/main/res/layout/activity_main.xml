@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext_main_first_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_firstNumber"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edittext_main_second_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_secondNumber"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/button_main_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/button_yellow_light"
+            android:text="@string/button_text_add"
+            android:textColor="@color/button_text_pink" />
+
+        <Button
+            android:id="@+id/button_main_subtract"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/button_yellow_light"
+            android:text="@string/button_text_subtract"
+
+            android:textColor="@color/button_text_pink" />
+
+        <Button
+            android:id="@+id/button_main_multiply"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/button_yellow_light"
+            android:text="@string/button_text_multyply"
+            android:textColor="@color/button_text_pink" />
+
+
+        <Button
+            android:id="@+id/button_main_divide"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/button_yellow_light"
+            android:text="@string/button_text_divide"
+            android:textColor="@color/button_text_pink" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/textview_main_result"
+        android:textAlignment="center"
+        android:textColor="@color/button_text_pink"
+        android:textSize="40sp" />
+
+</LinearLayout>
